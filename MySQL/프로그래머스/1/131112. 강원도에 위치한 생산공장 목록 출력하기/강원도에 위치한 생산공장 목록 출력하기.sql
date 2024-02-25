@@ -1,0 +1,4 @@
+select FACTORY_ID, FACTORY_NAME, ADDRESS
+from FOOD_FACTORY
+where ADDRESS regexp "강원"
+order by FACTORY_ID
