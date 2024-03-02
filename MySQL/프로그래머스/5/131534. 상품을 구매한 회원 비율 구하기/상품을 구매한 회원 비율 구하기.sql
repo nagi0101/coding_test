@@ -16,3 +16,4 @@ from
     n
 where year(u.JOINED) = 2021
 group by YEAR, MONTH
+order by YEAR, MONTH
