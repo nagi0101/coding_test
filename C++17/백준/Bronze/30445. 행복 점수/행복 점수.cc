@@ -2,9 +2,7 @@
 #include <cstdio>
 #include <map>
 
-#define MAX_W (80)
-#define MAX_C (20)
-#define MAX_S (MAX_W * MAX_C + MAX_W)
+#define MAX_S (80 * 20 + 80)
 
 using namespace std;
 
